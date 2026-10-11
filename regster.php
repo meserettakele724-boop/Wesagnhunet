@@ -161,7 +161,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             </div>
         <?php endif; ?>
 
-        <form method="POST" action="register.php">
+        <form method="POST" action="regster.php">
             <label for="full_name">Full Name</label>
             <input
                 type="text"
@@ -207,6 +207,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </form>
 
         <div class="links">
+            <a href="login.php">Already have an account? Login</a>
+            <br><br>
             <a href="index.php">Back to Home</a>
         </div>
     </div>
